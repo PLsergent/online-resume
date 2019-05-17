@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
+# sudo docker build --tag=online-resume .
 # sudo docker run --name online-resume -d -p 80:5000 --rm online-resume:latest
 
 
